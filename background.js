@@ -26,8 +26,7 @@ function initiateShare(title, url) {
             console.error('共有がキャンセルされました', error);
         });
     } else {
-        copyToClipboard(url);
-        alert('このブラウザは共有機能をサポートしていません。URLがクリップボードにコピーされました。');
+        alert('このブラウザは共有機能をサポートしていません。');
     }
 }
 
